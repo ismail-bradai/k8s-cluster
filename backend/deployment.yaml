@@ -17,5 +17,3 @@ spec:
         image: ghcr.io/dentalassistai/backend-hw:latest
         ports:
         - containerPort: 3000
-      imagePullSecrets:
-      - name: ghcr-secret
