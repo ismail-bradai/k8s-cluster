@@ -17,3 +17,10 @@ spec:
         image: ghcr.io/dentalassistai/backend-hw:latest
         ports:
         - containerPort: 3000
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+          requests:
+            memory: "128Mi"
+            cpu: "250m"
