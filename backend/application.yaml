@@ -12,7 +12,7 @@ spec:
     path: backend
   destination: 
     server: https://kubernetes.default.svc
-    namespace: backend 
+    namespace: default 
 
   syncPolicy: 
     syncOptions: 
